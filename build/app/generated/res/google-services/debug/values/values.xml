@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1020272947304-nr9nd9srvtk73dbg4nremhqqubeurg5a.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1020272947304</string>
+    <string name="google_api_key" translatable="false">AIzaSyBj_6tTN6RgJ8TiYc22Lt5V7umAZxUsBxY</string>
+    <string name="google_app_id" translatable="false">1:1020272947304:android:b12422bdf8a9133944cbdd</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBj_6tTN6RgJ8TiYc22Lt5V7umAZxUsBxY</string>
+    <string name="google_storage_bucket" translatable="false">e-commerce-app-4e38c.appspot.com</string>
+    <string name="project_id" translatable="false">e-commerce-app-4e38c</string>
+</resources>
