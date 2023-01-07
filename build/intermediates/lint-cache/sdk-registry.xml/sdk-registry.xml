@@ -3,7 +3,7 @@
   <library  groupId="com.urbanairship.android" artifactId="urbanairship-sdk" recommended-version="9.3.1" >
     <versions from="9.1.0" status="deprecated" version-literal="!SDK-VERSION-STRING!:com.urbanairship.android:urbanairship-sdk:9.1.0" />
     <versions from="9.0.0" to="9.0.4" status="deprecated" description="Version is known issues with in-app automation. Please update to version &lt;current&gt; as soon as possible." />
-    <versions from="8.9.1" to="8.9.2" status="deprecated" description="Version is known to have stability issues. Please update to version &lt;current&gt; as soon as possible. See &lt;url&gt; for more details." url="https://github.com/urbanairship/android-library/blob/master/CHANGELOG.md#version-893---october-17-2017" />
+    <versions from="8.9.1" to="8.9.2" status="deprecated" description="Version is known to have stability issues. Please update to version &lt;current&gt; as soon as possible. See &lt;url&gt; for more details." url="https://..com/urbanairship/android-library/blob/master/CHANGELOG.md#version-893---october-17-2017" />
     <versions from="6.1.4" to="8.7.0" status="deprecated" description="Version is known to have Android O compatibility issues. Please update to version &lt;current&gt; as soon as possible." />
     <versions from="9.3.0" status="deprecated" version-literal="!SDK-VERSION-STRING!:com.urbanairship.android:urbanairship-sdk:9.3.0" />
     <versions from="9.3.1" status="recommended" version-literal="!SDK-VERSION-STRING!:com.urbanairship.android:urbanairship-sdk:9.3.1" />
@@ -54,9 +54,9 @@
   </library>
   <library  groupId="com.android.volley" artifactId="volley" recommended-version="1.1.0" >
     <versions from="1.1.0" />
-    <versions from="1.1.0-rc2" status="deprecated" description="Bug affecting app stability" url="https://github.com/google/volley/releases" />
-    <versions from="1.1.0-rc1" status="deprecated" description="Bug affecting app stability" url="https://github.com/google/volley/releases" />
-    <versions from="1.0.0" status="deprecated" description="Bug affecting app stability" url="https://github.com/google/volley/releases" />
+    <versions from="1.1.0-rc2" status="deprecated" description="Bug affecting app stability" url="https://..com/google/volley/releases" />
+    <versions from="1.1.0-rc1" status="deprecated" description="Bug affecting app stability" url="https://..com/google/volley/releases" />
+    <versions from="1.0.0" status="deprecated" description="Bug affecting app stability" url="https://..com/google/volley/releases" />
   </library>
   <library groupId="com.crashlytics.sdk.android" artifactId="answers" recommended-version="17.4.0">
     <versions from="1.0.0" to="1.4.7" status="deprecated" description="Fabric Answers is deprecated. To continue getting real-time analytics, switch over to using Google Analytics.&#13;&#10;For more information, visit https://firebase.google.com/docs/crashlytics/switch-to-analytics." url="https://firebase.google.com/docs/crashlytics/switch-to-analytics?platform=android" />
@@ -75,9 +75,9 @@
   </library>
   <library  groupId="com.google.guava" artifactId="guava" recommended-version="25.0-android" >
     <versions from="25.0-android" />
-    <versions from="24.1.1-android" status="insecure" description="Moderate security vulnerability" url="https://github.com/google/guava/wiki/CVE-2018-10237" />
-    <versions from="24.1-android" status="deprecated" description="Bug affecting app performance" url="https://github.com/google/guava/releases" />
-    <versions from="24.0-android" status="deprecated" description="Bug affecting app performance" url="https://github.com/google/guava/releases" />
+    <versions from="24.1.1-android" status="insecure" description="Moderate security vulnerability" url="https://..com/google/guava/wiki/CVE-2018-10237" />
+    <versions from="24.1-android" status="deprecated" description="Bug affecting app performance" url="https://..com/google/guava/releases" />
+    <versions from="24.0-android" status="deprecated" description="Bug affecting app performance" url="https://..com/google/guava/releases" />
   </library>
   <library  groupId="com.google.firebase" artifactId="firebase-analytics" recommended-version="15.0.0" >
     <versions from="15.0.0" />
@@ -127,15 +127,15 @@
     <versions from="17.0.0-beta02" to="17.0.0-beta02" status="deprecated" description="The Firebase Crashlytics beta SDK is now deprecated and will continue reporting your app's crashes only until November 15, 2020. To continue getting crash reports in the Firebase console, make sure you upgrade to the generally available Firebase Crashlytics SDK version 17.0.0+.&#13;&#10;For more information, visit https://firebase.google.com/docs/crashlytics/get-started" url="https://firebase.google.com/docs/crashlytics/get-started?platform=android" />
     <versions from="17.0.0-beta03" to="17.0.0-beta03" status="deprecated" description="The Firebase Crashlytics beta SDK is now deprecated and will continue reporting your app's crashes only until November 15, 2020. To continue getting crash reports in the Firebase console, make sure you upgrade to the generally available Firebase Crashlytics SDK version 17.0.0+.&#13;&#10;For more information, visit https://firebase.google.com/docs/crashlytics/get-started" url="https://firebase.google.com/docs/crashlytics/get-started?platform=android" />
     <versions from="17.0.0-beta04" to="17.0.0-beta04" status="deprecated" description="The Firebase Crashlytics beta SDK is now deprecated and will continue reporting your app's crashes only until November 15, 2020. To continue getting crash reports in the Firebase console, make sure you upgrade to the generally available Firebase Crashlytics SDK version 17.0.0+.&#13;&#10;For more information, visit https://firebase.google.com/docs/crashlytics/get-started" url="https://firebase.google.com/docs/crashlytics/get-started?platform=android" />
-    <versions from="18.3.0" to="18.3.0" status="deprecated" description="We detected an issue in this version of the Crashlytics Android SDK. We strongly recommend either using v18.2.13 or earlier or upgrading to v18.3.1+." url="https://github.com/firebase/firebase-android-sdk/issues/4223" />
+    <versions from="18.3.0" to="18.3.0" status="deprecated" description="We detected an issue in this version of the Crashlytics Android SDK. We strongly recommend either using v18.2.13 or earlier or upgrading to v18.3.1+." url="https://..com/firebase/firebase-android-sdk/issues/4223" />
   </library>
   <library groupId="com.google.firebase" artifactId="firebase-crashlytics-ndk" recommended-version="18.3.2">
     <versions from="17.0.0-beta01" to="17.0.0-beta01" status="deprecated" description="The Firebase Crashlytics beta SDK is now deprecated and will continue reporting your app's crashes only until November 15, 2020. To continue getting crash reports in the Firebase console, make sure you upgrade to the generally available Firebase Crashlytics SDK version 17.0.0+.&#13;&#10;For more information, visit https://firebase.google.com/docs/crashlytics/get-started" url="https://firebase.google.com/docs/crashlytics/get-started?platform=android" />
     <versions from="17.0.0-beta02" to="17.0.0-beta02" status="deprecated" description="The Firebase Crashlytics beta SDK is now deprecated and will continue reporting your app's crashes only until November 15, 2020. To continue getting crash reports in the Firebase console, make sure you upgrade to the generally available Firebase Crashlytics SDK version 17.0.0+.&#13;&#10;For more information, visit https://firebase.google.com/docs/crashlytics/get-started" url="https://firebase.google.com/docs/crashlytics/get-started?platform=android" />
     <versions from="17.0.0-beta03" to="17.0.0-beta03" status="deprecated" description="The Firebase Crashlytics beta SDK is now deprecated and will continue reporting your app's crashes only until November 15, 2020. To continue getting crash reports in the Firebase console, make sure you upgrade to the generally available Firebase Crashlytics SDK version 17.0.0+.&#13;&#10;For more information, visit https://firebase.google.com/docs/crashlytics/get-started" url="https://firebase.google.com/docs/crashlytics/get-started?platform=android" />
     <versions from="17.0.0-beta04" to="17.0.0-beta04" status="deprecated" description="The Firebase Crashlytics beta SDK is now deprecated and will continue reporting your app's crashes only until November 15, 2020. To continue getting crash reports in the Firebase console, make sure you upgrade to the generally available Firebase Crashlytics SDK version 17.0.0+.&#13;&#10;For more information, visit https://firebase.google.com/docs/crashlytics/get-started" url="https://firebase.google.com/docs/crashlytics/get-started?platform=android" />
-    <versions from="18.3.0" to="18.3.0" status="deprecated" description="We detected an issue in this version of the Crashlytics Android SDK. We strongly recommend either using v18.2.13 or earlier or upgrading to v18.3.1+." url="https://github.com/firebase/firebase-android-sdk/issues/4223" />
-    <versions from="18.3.1" to="18.3.1" status="deprecated" description="We detected an issue in this version of the Crashlytics Android SDK. We strongly recommend either using v18.2.13 or earlier or upgrading to v18.3.2+." url="https://github.com/firebase/firebase-android-sdk/issues/4313" />
+    <versions from="18.3.0" to="18.3.0" status="deprecated" description="We detected an issue in this version of the Crashlytics Android SDK. We strongly recommend either using v18.2.13 or earlier or upgrading to v18.3.1+." url="https://..com/firebase/firebase-android-sdk/issues/4223" />
+    <versions from="18.3.1" to="18.3.1" status="deprecated" description="We detected an issue in this version of the Crashlytics Android SDK. We strongly recommend either using v18.2.13 or earlier or upgrading to v18.3.2+." url="https://..com/firebase/firebase-android-sdk/issues/4313" />
   </library>
   <library  groupId="com.google.firebase" artifactId="firebase-messaging" recommended-version="20.1.2" >
     <versions from="20.1.1" status="deprecated" description="Bug affecting app stability" url="https://firebase.google.com/support/release-notes/android#messaging_v20-1-1" />
@@ -153,13 +153,13 @@
 
   <library  groupId="com.google.dagger" artifactId="dagger-android" recommended-version="2.35.1" >
     <versions from="2.15" />
-    <versions from="2.14.1" status="deprecated" description="Bug affecting SDK performance" url="https://github.com/google/dagger/releases/tag/2.15" />
-    <versions from="2.14" status="deprecated" description="Bug affecting SDK performance" url="https://github.com/google/dagger/releases/tag/2.15" />
-    <versions from="2.13" status="deprecated" description="Bug affecting app performance" url="https://github.com/google/dagger/releases/tag/2.15" />
-    <versions from="2.12" status="deprecated" description="Bug affecting app performance" url="https://github.com/google/dagger/releases/tag/2.15" />
-    <versions from="2.11" status="deprecated" description="Bug affecting SDK performance" url="https://github.com/google/dagger/releases/tag/2.15" />
-    <versions from="2.11-rc2" status="deprecated" description="Bug affecting SDK performance" url="https://github.com/google/dagger/releases/tag/2.15" />
-    <versions from="2.11-rc1" status="deprecated" description="Bug affecting SDK performance" url="https://github.com/google/dagger/releases/tag/2.15" />
+    <versions from="2.14.1" status="deprecated" description="Bug affecting SDK performance" url="https://..com/google/dagger/releases/tag/2.15" />
+    <versions from="2.14" status="deprecated" description="Bug affecting SDK performance" url="https://..com/google/dagger/releases/tag/2.15" />
+    <versions from="2.13" status="deprecated" description="Bug affecting app performance" url="https://..com/google/dagger/releases/tag/2.15" />
+    <versions from="2.12" status="deprecated" description="Bug affecting app performance" url="https://..com/google/dagger/releases/tag/2.15" />
+    <versions from="2.11" status="deprecated" description="Bug affecting SDK performance" url="https://..com/google/dagger/releases/tag/2.15" />
+    <versions from="2.11-rc2" status="deprecated" description="Bug affecting SDK performance" url="https://..com/google/dagger/releases/tag/2.15" />
+    <versions from="2.11-rc1" status="deprecated" description="Bug affecting SDK performance" url="https://..com/google/dagger/releases/tag/2.15" />
     <versions from="2.10" status="deprecated" url="https://github.com/google/dagger/releases/tag/2.15" />
   </library>
   <library  groupId="AppsFlyer" artifactId="af-android-sdk" recommended-version="4.8.10" >
