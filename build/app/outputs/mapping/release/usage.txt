@@ -1766,8 +1766,8 @@ com.google.common.util.concurrent.TimeoutFuture$Fire
 com.google.type.LatLng$Builder:
     public double getLatitude()
     public com.google.type.LatLng$Builder clearLatitude()
-    public double getLongitude()
-    public com.google.type.LatLng$Builder clearLongitude()
+    public double getLon.ude()
+    public com.google.type.LatLng$Builder clearLon.ude()
 com.google.common.graph.Traverser$TreeTraverser$DepthFirstPreOrderIterator
 io.flutter.plugins.imagepicker.R$attr
 com.squareup.okhttp.Headers$Builder:
@@ -2077,7 +2077,7 @@ androidx.loader.app.LoaderManagerImpl$LoaderViewModel:
     boolean hasRunningLoaders()
 com.google.common.util.concurrent.AbstractFuture$SynchronizedHelper
 kotlinx.coroutines.sync.MutexImpl$LockSelect
-kotlin.collections.IndexingIterable
+kotlin.collections.Indexin.erable
 androidx.core.app.FrameMetricsAggregator$FrameMetricsBaseImpl
 com.google.common.collect.CompactHashMap$1
 kotlinx.coroutines.selects.SelectClause0
@@ -4109,7 +4109,7 @@ androidx.core.content.res.GrowingArrayUtils
 kotlin.contracts.InvocationKind
 com.google.type.LatLng:
     private void clearLatitude()
-    private void clearLongitude()
+    private void clearLon.ude()
     public static com.google.type.LatLng parseFrom(java.nio.ByteBuffer)
     public static com.google.type.LatLng parseFrom(java.nio.ByteBuffer,com.google.protobuf.ExtensionRegistryLite)
     public static com.google.type.LatLng parseFrom(com.google.protobuf.ByteString)
@@ -4135,7 +4135,7 @@ com.google.common.base.Splitter:
     private static com.google.common.base.Splitter on(com.google.common.base.CommonPattern)
     public static com.google.common.base.Splitter onPattern(java.lang.String)
     public static com.google.common.base.Splitter fixedLength(int)
-    private java.util.Iterator splittingIterator(java.lang.CharSequence)
+    private java.util.Iterator splittin.erator(java.lang.CharSequence)
     static synthetic java.util.Iterator access$000(com.google.common.base.Splitter,java.lang.CharSequence)
     static synthetic com.google.common.base.CharMatcher access$200(com.google.common.base.Splitter)
     static synthetic boolean access$300(com.google.common.base.Splitter)
@@ -4254,7 +4254,7 @@ kotlinx.coroutines.flow.FlowKt__BuildersKt:
     public static final kotlinx.coroutines.flow.Flow channelFlow(kotlin.jvm.functions.Function2)
     public static final kotlinx.coroutines.flow.Flow callbackFlow(kotlin.jvm.functions.Function2)
 com.squareup.okhttp.internal.framed.FramedConnection$4
-kotlin.collections.ULongIterator
+kotlin.collections.ULon.erator
 kotlinx.coroutines.flow.LintKt$retry$1
 io.grpc.internal.ConscryptLoader
 com.google.common.collect.ImmutableMap$IteratorBasedImmutableMap
@@ -4744,12 +4744,12 @@ kotlinx.coroutines.SelectAwaitOnCompletion
 kotlin.io.LinesSequence
 com.squareup.okhttp.internal.http.Http1xStream$1
 kotlin.text.CharsKt__CharKt:
-    public static final int digitToInt(char)
-    public static final int digitToInt(char,int)
-    public static final java.lang.Integer digitToIntOrNull(char)
-    public static final java.lang.Integer digitToIntOrNull(char,int)
-    public static final char digitToChar(int)
-    public static final char digitToChar(int,int)
+    public static final int di.ToInt(char)
+    public static final int di.ToInt(char,int)
+    public static final java.lang.Integer di.ToIntOrNull(char)
+    public static final java.lang.Integer di.ToIntOrNull(char,int)
+    public static final char di.ToChar(int)
+    public static final char di.ToChar(int,int)
     public static final java.lang.String titlecase(char)
     private static final java.lang.String plus(char,java.lang.String)
     public static synthetic boolean equals$default(char,char,boolean,int,java.lang.Object)
@@ -8490,7 +8490,7 @@ okio.ByteString:
     private okio.ByteString hmac(java.lang.String,okio.ByteString)
     public static okio.ByteString decodeBase64(java.lang.String)
     public static okio.ByteString decodeHex(java.lang.String)
-    private static int decodeHexDigit(char)
+    private static int decodeHexDi.(char)
     public static okio.ByteString read(java.io.InputStream,int)
     private void readObject(java.io.ObjectInputStream)
     private void writeObject(java.io.ObjectOutputStream)
@@ -11089,7 +11089,7 @@ io.flutter.embedding.android.KeyboardMap:
     public static final long kUnicodePlane
     public static final long kAndroidPlane
 com.google.android.gms.internal.firebase_auth.zzkl
-com.google.common.base.CharMatcher$JavaDigit
+com.google.common.base.CharMatcher$JavaDi.
 com.google.firebase.database.collection.R$color
 com.google.api.Context$1
 com.google.common.util.concurrent.Futures$1
@@ -11339,7 +11339,7 @@ com.google.android.gms.common.api.internal.UnregisterListenerMethod:
     protected void <init>(com.google.android.gms.common.api.internal.ListenerHolder$ListenerKey)
     public com.google.android.gms.common.api.internal.ListenerHolder$ListenerKey getListenerKey()
     private final com.google.android.gms.common.api.internal.ListenerHolder$ListenerKey zajo
-com.google.common.collect.PeekingIterator
+com.google.common.collect.Peekin.erator
 com.google.android.gms.common.api.internal.TaskUtil
 androidx.core.view.DisplayCompat$Api17Impl
 com.google.firebase.auth.api.internal.zzat
@@ -11575,7 +11575,7 @@ kotlinx.coroutines.flow.FlowKt__LimitKt$drop$lambda-2$$inlined$collect$1
 com.google.gson.FieldNamingPolicy$3
 com.google.firebase.firestore.remote.Stream
 kotlin.collections.AbstractList$ListIteratorImpl
-com.google.common.primitives.Longs$AsciiDigits
+com.google.common.primitives.Longs$AsciiDi.s
 kotlin.text.MatchResult$DefaultImpls
 com.google.type.Expr$1
 com.google.common.base.Equivalence$Wrapper
@@ -12455,7 +12455,7 @@ com.google.common.hash.PrimitiveSink
 androidx.core.view.accessibility.AccessibilityManagerCompat
 kotlinx.coroutines.flow.FlowKt__ZipKt$combine$$inlined$unsafeFlow$2$1
 androidx.core.view.GestureDetectorCompat$GestureDetectorCompatImplJellybeanMr2
-com.google.common.base.Splitter$SplittingIterator
+com.google.common.base.Splitter$Splittin.erator
 com.google.firebase.storage.R$drawable
 io.flutter.embedding.engine.loader.ApplicationInfoLoader:
     public void <init>()
@@ -12889,7 +12889,7 @@ com.google.android.gms.common.internal.zah
 com.google.firebase.storage.R$integer
 com.google.gson.FieldNamingPolicy$2
 com.google.common.base.Splitter$1:
-    public com.google.common.base.Splitter$SplittingIterator iterator(com.google.common.base.Splitter,java.lang.CharSequence)
+    public com.google.common.base.Splitter$Splittin.erator iterator(com.google.common.base.Splitter,java.lang.CharSequence)
     public synthetic bridge java.util.Iterator iterator(com.google.common.base.Splitter,java.lang.CharSequence)
 com.google.android.gms.common.api.internal.zaaf
 com.google.common.util.concurrent.SmoothRateLimiter
@@ -13769,7 +13769,7 @@ com.google.android.gms.signin.zac:
     public abstract void zacu()
 kotlin.text.CharCategory
 com.google.common.util.concurrent.RateLimiter
-com.google.common.base.CharMatcher$Digit
+com.google.common.base.CharMatcher$Di.
 kotlin.text.RegexKt
 com.google.rpc.StatusProto
 com.google.common.math.PairedStatsAccumulator
@@ -14187,15 +14187,15 @@ com.google.common.collect.Iterators:
     public static java.lang.Object getLast(java.util.Iterator,java.lang.Object)
     public static int advance(java.util.Iterator,int)
     public static java.util.Iterator limit(java.util.Iterator,int)
-    public static java.util.Iterator consumingIterator(java.util.Iterator)
+    public static java.util.Iterator consumin.erator(java.util.Iterator)
     static java.lang.Object pollNext(java.util.Iterator)
     static void clear(java.util.Iterator)
     public static varargs com.google.common.collect.UnmodifiableIterator forArray(java.lang.Object[])
     static com.google.common.collect.UnmodifiableListIterator forArray(java.lang.Object[],int,int,int)
     public static com.google.common.collect.UnmodifiableIterator forEnumeration(java.util.Enumeration)
     public static java.util.Enumeration asEnumeration(java.util.Iterator)
-    public static com.google.common.collect.PeekingIterator peekingIterator(java.util.Iterator)
-    public static com.google.common.collect.PeekingIterator peekingIterator(com.google.common.collect.PeekingIterator)
+    public static com.google.common.collect.Peekin.erator peekin.erator(java.util.Iterator)
+    public static com.google.common.collect.Peekin.erator peekin.erator(com.google.common.collect.Peekin.erator)
     public static com.google.common.collect.UnmodifiableIterator mergeSorted(java.lang.Iterable,java.util.Comparator)
     static java.util.ListIterator cast(java.util.Iterator)
 com.google.common.primitives.UnsignedInts$LexicographicalComparator
@@ -14679,7 +14679,7 @@ com.google.firebase.installations.remote.AutoValue_TokenResult$Builder:
 com.google.android.gms.common.api.internal.StatusCallback
 com.google.common.util.concurrent.AbstractExecutionThreadService$2
 com.google.common.hash.Crc32cHashFunction$Crc32cHasher
-kotlin.collections.LongIterator
+kotlin.collections.Lon.erator
 com.google.firestore.v1.StructuredQuery$ProjectionOrBuilder
 kotlinx.coroutines.flow.FlowKt__EmittersKt$unsafeTransform$$inlined$unsafeFlow$1$1
 com.google.android.gms.internal.firebase_auth.zzii
@@ -14905,7 +14905,7 @@ androidx.loader.R$style
 kotlin.UIntArray$Iterator
 org.checkerframework.checker.nullness.compatqual.NullableType
 androidx.core.content.res.ResourcesCompat$FontCallback$2
-com.google.common.collect.Iterators$MergingIterator$1
+com.google.common.collect.Iterators$Mergin.erator$1
 androidx.core.content.res.ResourcesCompat$ColorStateListCacheKey
 com.google.common.graph.MultiEdgesConnecting$1
 com.google.firebase.installations.R$dimen
@@ -15190,7 +15190,7 @@ com.google.common.base.Stopwatch:
     public boolean isRunning()
     public com.google.common.base.Stopwatch stop()
 com.google.longrunning.Operation$1
-com.google.common.collect.Iterators$MergingIterator
+com.google.common.collect.Iterators$Mergin.erator
 com.google.firebase.components.Component$$Lambda$1
 kotlin.UShort$Companion
 kotlinx.coroutines.flow.FlowKt__TransformKt$onEach$$inlined$unsafeTransform$1$2$1
@@ -16086,7 +16086,7 @@ kotlinx.coroutines.debug.AgentPremain
 com.google.firebase.installations.interop.R$dimen
 io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener
 com.google.firebase.auth.api.internal.zzag
-com.google.common.base.CharMatcher$JavaLetterOrDigit
+com.google.common.base.CharMatcher$JavaLetterOrDi.
 com.squareup.okhttp.internal.framed.Header
 kotlinx.coroutines.flow.internal.SafeCollectorKt:
     private static synthetic void getEmitFun$annotations()
@@ -16794,7 +16794,7 @@ io.grpc.internal.OobChannel$4
 com.google.firebase.database.collection.LLRBNode$NodeVisitor
 com.google.api.HttpBody
 com.google.common.collect.HashMultimapGwtSerializationDependencies
-kotlin.jvm.internal.ArrayLongIterator
+kotlin.jvm.internal.ArrayLon.erator
 com.google.common.collect.Cut
 com.google.common.util.concurrent.AbstractService$IsStartableGuard
 com.google.android.gms.internal.firebase_auth.zzkp
@@ -18818,7 +18818,7 @@ androidx.viewpager.widget.PagerTitleStrip
 com.google.android.gms.internal.measurement.zzka
 com.google.common.collect.ImmutableMap$IteratorBasedImmutableMap$1EntrySetImpl
 com.google.api.LabelDescriptor$Builder
-com.google.common.collect.ForwardingIterator
+com.google.common.collect.Forwardin.erator
 com.google.common.collect.LinkedListMultimap$1
 com.google.common.hash.HashCode
 com.google.common.collect.ImmutableBiMap$Builder
@@ -18981,7 +18981,7 @@ androidx.exifinterface.media.ExifInterface:
     public void setAltitude(double)
     public void setDateTime(java.lang.Long)
     public java.lang.Long getDateTime()
-    public java.lang.Long getDateTimeDigitized()
+    public java.lang.Long getDateTimeDi.ized()
     public java.lang.Long getDateTimeOriginal()
     public java.lang.Long getGpsDateTime()
     private static final java.lang.String TAG
@@ -19027,13 +19027,13 @@ androidx.exifinterface.media.ExifInterface:
     public static final java.lang.String TAG_USER_COMMENT
     public static final java.lang.String TAG_RELATED_SOUND_FILE
     public static final java.lang.String TAG_DATETIME_ORIGINAL
-    public static final java.lang.String TAG_DATETIME_DIGITIZED
+    public static final java.lang.String TAG_DATETIME_DI.IZED
     public static final java.lang.String TAG_OFFSET_TIME
     public static final java.lang.String TAG_OFFSET_TIME_ORIGINAL
-    public static final java.lang.String TAG_OFFSET_TIME_DIGITIZED
+    public static final java.lang.String TAG_OFFSET_TIME_DI.IZED
     public static final java.lang.String TAG_SUBSEC_TIME
     public static final java.lang.String TAG_SUBSEC_TIME_ORIGINAL
-    public static final java.lang.String TAG_SUBSEC_TIME_DIGITIZED
+    public static final java.lang.String TAG_SUBSEC_TIME_DI.IZED
     public static final java.lang.String TAG_EXPOSURE_TIME
     public static final java.lang.String TAG_F_NUMBER
     public static final java.lang.String TAG_EXPOSURE_PROGRAM
@@ -19072,7 +19072,7 @@ androidx.exifinterface.media.ExifInterface:
     public static final java.lang.String TAG_CUSTOM_RENDERED
     public static final java.lang.String TAG_EXPOSURE_MODE
     public static final java.lang.String TAG_WHITE_BALANCE
-    public static final java.lang.String TAG_DIGITAL_ZOOM_RATIO
+    public static final java.lang.String TAG_DI.AL_ZOOM_RATIO
     public static final java.lang.String TAG_FOCAL_LENGTH_IN_35MM_FILM
     public static final java.lang.String TAG_SCENE_CAPTURE_TYPE
     public static final java.lang.String TAG_GAIN_CONTROL
@@ -19092,8 +19092,8 @@ androidx.exifinterface.media.ExifInterface:
     public static final java.lang.String TAG_GPS_VERSION_ID
     public static final java.lang.String TAG_GPS_LATITUDE_REF
     public static final java.lang.String TAG_GPS_LATITUDE
-    public static final java.lang.String TAG_GPS_LONGITUDE_REF
-    public static final java.lang.String TAG_GPS_LONGITUDE
+    public static final java.lang.String TAG_GPS_LON.UDE_REF
+    public static final java.lang.String TAG_GPS_LON.UDE
     public static final java.lang.String TAG_GPS_ALTITUDE_REF
     public static final java.lang.String TAG_GPS_ALTITUDE
     public static final java.lang.String TAG_GPS_TIMESTAMP
@@ -19110,8 +19110,8 @@ androidx.exifinterface.media.ExifInterface:
     public static final java.lang.String TAG_GPS_MAP_DATUM
     public static final java.lang.String TAG_GPS_DEST_LATITUDE_REF
     public static final java.lang.String TAG_GPS_DEST_LATITUDE
-    public static final java.lang.String TAG_GPS_DEST_LONGITUDE_REF
-    public static final java.lang.String TAG_GPS_DEST_LONGITUDE
+    public static final java.lang.String TAG_GPS_DEST_LON.UDE_REF
+    public static final java.lang.String TAG_GPS_DEST_LON.UDE
     public static final java.lang.String TAG_GPS_DEST_BEARING_REF
     public static final java.lang.String TAG_GPS_DEST_BEARING
     public static final java.lang.String TAG_GPS_DEST_DISTANCE_REF
@@ -19264,8 +19264,8 @@ androidx.exifinterface.media.ExifInterface:
     public static final short SUBJECT_DISTANCE_RANGE_DISTANT_VIEW
     public static final java.lang.String LATITUDE_NORTH
     public static final java.lang.String LATITUDE_SOUTH
-    public static final java.lang.String LONGITUDE_EAST
-    public static final java.lang.String LONGITUDE_WEST
+    public static final java.lang.String LON.UDE_EAST
+    public static final java.lang.String LON.UDE_WEST
     public static final short ALTITUDE_ABOVE_SEA_LEVEL
     public static final short ALTITUDE_BELOW_SEA_LEVEL
     public static final java.lang.String GPS_MEASUREMENT_IN_PROGRESS
@@ -20339,7 +20339,7 @@ io.grpc.CallOptions$Key:
     public static io.grpc.CallOptions$Key createWithDefault(java.lang.String,java.lang.Object)
     public java.lang.Object getDefault()
 com.google.common.collect.EnumMultiset$2$1
-kotlin.collections.IndexingIterator
+kotlin.collections.Indexin.erator
 com.google.gson.JsonIOException
 io.grpc.ProxiedSocketAddress:
     private static final long serialVersionUID
@@ -20816,10 +20816,10 @@ com.google.common.base.CharMatcher:
     public static com.google.common.base.CharMatcher any()
     public static com.google.common.base.CharMatcher breakingWhitespace()
     public static com.google.common.base.CharMatcher ascii()
-    public static com.google.common.base.CharMatcher digit()
-    public static com.google.common.base.CharMatcher javaDigit()
+    public static com.google.common.base.CharMatcher di.()
+    public static com.google.common.base.CharMatcher javaDi.()
     public static com.google.common.base.CharMatcher javaLetter()
-    public static com.google.common.base.CharMatcher javaLetterOrDigit()
+    public static com.google.common.base.CharMatcher javaLetterOrDi.()
     public static com.google.common.base.CharMatcher javaUpperCase()
     public static com.google.common.base.CharMatcher javaLowerCase()
     public static com.google.common.base.CharMatcher javaIsoControl()
@@ -21059,8 +21059,8 @@ kotlin.text.CharsKt__CharJVMKt:
     public static final kotlin.text.CharCategory getCategory(char)
     private static final boolean isDefined(char)
     private static final boolean isLetter(char)
-    private static final boolean isLetterOrDigit(char)
-    private static final boolean isDigit(char)
+    private static final boolean isLetterOrDi.(char)
+    private static final boolean isDi.(char)
     private static final boolean isIdentifierIgnorable(char)
     private static final boolean isISOControl(char)
     private static final boolean isJavaIdentifierPart(char)
@@ -21648,12 +21648,12 @@ com.google.gson.stream.JsonReader:
     private static final int PEEKED_EOF
     private static final int NUMBER_CHAR_NONE
     private static final int NUMBER_CHAR_SIGN
-    private static final int NUMBER_CHAR_DIGIT
+    private static final int NUMBER_CHAR_DI.
     private static final int NUMBER_CHAR_DECIMAL
-    private static final int NUMBER_CHAR_FRACTION_DIGIT
+    private static final int NUMBER_CHAR_FRACTION_DI.
     private static final int NUMBER_CHAR_EXP_E
     private static final int NUMBER_CHAR_EXP_SIGN
-    private static final int NUMBER_CHAR_EXP_DIGIT
+    private static final int NUMBER_CHAR_EXP_DI.
 androidx.core.graphics.TypefaceCompatApi21Impl
 com.google.api.AdviceOrBuilder
 kotlinx.coroutines.JobImpl:
@@ -22310,7 +22310,7 @@ com.squareup.okhttp.HttpUrl:
     private final java.lang.String username
     private final java.lang.String password
     private final java.lang.String fragment
-    private static final char[] HEX_DIGITS
+    private static final char[] HEX_DI.S
 com.google.android.gms.common.api.internal.BasePendingResult:
     private final java.lang.ref.WeakReference zadr
     private com.google.android.gms.common.internal.ICancelToken zadz

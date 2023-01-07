@@ -100,10 +100,10 @@ androidx.arch.core.internal.SafeIterableMap -> d.a.a.b.b:
     androidx.arch.core.internal.SafeIterableMap$Entry put(java.lang.Object,java.lang.Object) -> l
     java.lang.Object putIfAbsent(java.lang.Object,java.lang.Object) -> m
     java.lang.Object remove(java.lang.Object) -> n
-androidx.arch.core.internal.SafeIterableMap$AscendingIterator -> d.a.a.b.b$a:
+androidx.arch.core.internal.SafeIterableMap$Ascendin.erator -> d.a.a.b.b$a:
     androidx.arch.core.internal.SafeIterableMap$Entry backward(androidx.arch.core.internal.SafeIterableMap$Entry) -> d
     androidx.arch.core.internal.SafeIterableMap$Entry forward(androidx.arch.core.internal.SafeIterableMap$Entry) -> e
-androidx.arch.core.internal.SafeIterableMap$DescendingIterator -> d.a.a.b.b$b:
+androidx.arch.core.internal.SafeIterableMap$Descendin.erator -> d.a.a.b.b$b:
     androidx.arch.core.internal.SafeIterableMap$Entry backward(androidx.arch.core.internal.SafeIterableMap$Entry) -> d
     androidx.arch.core.internal.SafeIterableMap$Entry forward(androidx.arch.core.internal.SafeIterableMap$Entry) -> e
 androidx.arch.core.internal.SafeIterableMap$Entry -> d.a.a.b.b$c:
@@ -10488,7 +10488,7 @@ com.google.common.base.Objects -> e.a.c.a.f:
     int hashCode(java.lang.Object[]) -> b
 com.google.common.base.PatternCompiler -> e.a.c.a.g:
 com.google.common.base.Platform -> e.a.c.a.h:
-    java.lang.String formatCompact4Digits(double) -> a
+    java.lang.String formatCompact4Di.s(double) -> a
     com.google.common.base.PatternCompiler loadPatternCompiler() -> b
     boolean stringIsNullOrEmpty(java.lang.String) -> c
     long systemNanoTime() -> d
@@ -12918,10 +12918,10 @@ com.google.firebase.firestore.FirestoreRegistrar$$Lambda$1 -> com.google.firebas
     com.google.firebase.components.ComponentFactory lambdaFactory$() -> b
 com.google.firebase.firestore.GeoPoint -> com.google.firebase.firestore.w:
     double latitude -> d
-    double longitude -> e
+    double lon.ude -> e
     int compareTo(com.google.firebase.firestore.GeoPoint) -> f
     double getLatitude() -> h
-    double getLongitude() -> k
+    double getLon.ude() -> k
 com.google.firebase.firestore.IgnoreExtraProperties -> com.google.firebase.firestore.x:
 com.google.firebase.firestore.ListenerRegistration -> com.google.firebase.firestore.y:
 com.google.firebase.firestore.MetadataChanges -> com.google.firebase.firestore.z:
@@ -18466,7 +18466,7 @@ com.google.protobuf.FieldSet -> e.a.g.w:
     int computeElementSize(com.google.protobuf.WireFormat$FieldType,int,java.lang.Object) -> d
     int computeElementSizeNoTag(com.google.protobuf.WireFormat$FieldType,java.lang.Object) -> e
     int computeFieldSize(com.google.protobuf.FieldSet$FieldDescriptorLite,java.lang.Object) -> f
-    java.util.Iterator descendingIterator() -> g
+    java.util.Iterator descendin.erator() -> g
     com.google.protobuf.FieldSet emptySet() -> h
     java.lang.Object getField(com.google.protobuf.FieldSet$FieldDescriptorLite) -> i
     int getMessageSetSerializedSize() -> j
@@ -19752,16 +19752,16 @@ com.google.type.LatLng -> e.a.i.a:
     void access$300(com.google.type.LatLng,double) -> U
     com.google.type.LatLng getDefaultInstance() -> V
     double getLatitude() -> W
-    double getLongitude() -> X
+    double getLon.ude() -> X
     com.google.type.LatLng$Builder newBuilder() -> Y
     void setLatitude(double) -> Z
-    void setLongitude(double) -> a0
+    void setLon.ude(double) -> a0
     java.lang.Object dynamicMethod(com.google.protobuf.GeneratedMessageLite$MethodToInvoke,java.lang.Object,java.lang.Object) -> y
 com.google.type.LatLng$1 -> e.a.i.a$a:
     int[] $SwitchMap$com$google$protobuf$GeneratedMessageLite$MethodToInvoke -> a
 com.google.type.LatLng$Builder -> e.a.i.a$b:
     com.google.type.LatLng$Builder setLatitude(double) -> H
-    com.google.type.LatLng$Builder setLongitude(double) -> I
+    com.google.type.LatLng$Builder setLon.ude(double) -> I
 com.mr.flutter.plugin.filepicker.FileInfo -> com.mr.flutter.plugin.filepicker.a:
     java.lang.String path -> a
     byte[] bytes -> d
@@ -19900,7 +19900,7 @@ com.squareup.okhttp.HttpUrl -> e.b.a.c:
     java.lang.String host -> a
     int port -> b
     java.lang.String url -> e
-    int decodeHexDigit(char) -> a
+    int decodeHexDi.(char) -> a
     int defaultPort(java.lang.String) -> b
     java.lang.String host() -> c
     void namesAndValuesToQueryString(java.lang.StringBuilder,java.util.List) -> d
@@ -27945,7 +27945,7 @@ kotlin.sequences.TransformingSequence$iterator$1 -> g.b0.i$a:
     kotlin.sequences.TransformingSequence this$0 -> e
 kotlin.text.CharsKt__CharJVMKt -> g.c0.a:
     int checkRadix(int) -> a
-    int digitOf(char,int) -> b
+    int di.Of(char,int) -> b
     boolean isWhitespace(char) -> c
 kotlin.text.CharsKt__CharKt -> g.c0.b:
     boolean equals(char,char,boolean) -> d
@@ -29292,7 +29292,7 @@ okio.Base64 -> h.b:
     java.lang.String encode(byte[],byte[]) -> b
 okio.Buffer -> h.c:
     long size -> e
-    byte[] DIGITS -> f
+    byte[] DI.S -> f
     okio.Segment head -> d
     long completeSegmentByteCount() -> C
     void require(long) -> F
@@ -29355,7 +29355,7 @@ okio.BufferedSource -> h.e:
     void skip(long) -> u
 okio.ByteString -> h.f:
     java.lang.String utf8 -> f
-    char[] HEX_DIGITS -> g
+    char[] HEX_DI.S -> g
     int hashCode -> e
     byte[] data -> d
     okio.ByteString EMPTY -> h

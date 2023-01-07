@@ -879,7 +879,7 @@ androidx.window.layout.ActivityCompatHelperApi24: androidx.window.layout.Activit
 com.google.android.gms.internal.measurement.zzbv$zza: boolean zzh
 com.google.android.gms.internal.measurement.zzbv$zzd: int zzc
 androidx.window.embedding.ExtensionEmbeddingBackend: void setEmbeddingExtension(androidx.window.embedding.EmbeddingInterfaceCompat)
-com.google.type.LatLng: double longitude_
+com.google.type.LatLng: double lon.ude_
 androidx.window.layout.FoldingFeature$OcclusionType: java.lang.String description
 androidx.window.layout.SidecarCompat$DistinctSidecarElementCallback
 io.flutter.embedding.engine.FlutterJNI: void setDeferredComponentManager(io.flutter.embedding.engine.deferredcomponents.DeferredComponentManager)
@@ -1930,7 +1930,7 @@ com.google.protobuf.WireFormat$FieldType: com.google.protobuf.WireFormat$FieldTy
 com.google.firebase.firestore.proto.WriteBatch: com.google.firebase.firestore.proto.WriteBatch DEFAULT_INSTANCE
 com.google.firebase.firestore.proto.Target: com.google.protobuf.Timestamp lastLimboFreeSnapshotVersion_
 com.google.firestore.v1.TransactionOptions$ReadWrite: com.google.firestore.v1.TransactionOptions$ReadWrite DEFAULT_INSTANCE
-com.google.type.LatLng: int LONGITUDE_FIELD_NUMBER
+com.google.type.LatLng: int LON.UDE_FIELD_NUMBER
 com.google.firebase.components.ComponentDiscoveryService: ComponentDiscoveryService()
 com.google.firestore.v1.StructuredQuery$FieldReference: com.google.protobuf.Parser PARSER
 io.flutter.plugin.editing.ImeSyncDeferringInsetsCallback: android.view.WindowInsets access$400(io.flutter.plugin.editing.ImeSyncDeferringInsetsCallback)

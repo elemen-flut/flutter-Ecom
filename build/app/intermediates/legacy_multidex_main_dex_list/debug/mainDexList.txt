@@ -336,7 +336,7 @@ kotlin/collections/MapsKt__MapsKt.class
 kotlin/collections/MapsKt___MapsKt.class
 kotlin/collections/UByteIterator.class
 kotlin/collections/UIntIterator.class
-kotlin/collections/ULongIterator.class
+kotlin/collections/ULon.erator.class
 kotlin/collections/UShortIterator.class
 kotlin/collections/unsigned/UArraysKt___UArraysJvmKt.class
 kotlin/collections/unsigned/UArraysKt___UArraysKt.class
