@@ -11180,13 +11180,13 @@ com.google.firebase.auth.GetTokenResult -> com.google.firebase.auth.b0:
     java.lang.String getSignInSecondFactor() -> f
     java.lang.String getToken() -> g
     long zza(java.lang.String) -> h
-com.google.firebase.auth.GithubAuthCredential -> com.google.firebase.auth.c0:
+com.google.firebase.auth..AuthCredential -> com.google.firebase.auth.c0:
     java.lang.String zza -> d
     java.lang.String getProvider() -> N
     java.lang.String getSignInMethod() -> O
     com.google.firebase.auth.AuthCredential zza() -> P
-    com.google.android.gms.internal.firebase_auth.zzgc zza(com.google.firebase.auth.GithubAuthCredential,java.lang.String) -> Q
-com.google.firebase.auth.GithubAuthProvider -> com.google.firebase.auth.d0:
+    com.google.android.gms.internal.firebase_auth.zzgc zza(com.google.firebase.auth..AuthCredential,java.lang.String) -> Q
+com.google.firebase.auth..AuthProvider -> com.google.firebase.auth.d0:
     com.google.firebase.auth.AuthCredential getCredential(java.lang.String) -> a
 com.google.firebase.auth.GoogleAuthCredential -> com.google.firebase.auth.e0:
     java.lang.String zzb -> e

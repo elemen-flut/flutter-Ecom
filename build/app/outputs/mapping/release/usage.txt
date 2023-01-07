@@ -4757,10 +4757,10 @@ kotlin.text.CharsKt__CharKt:
     public void <init>()
 io.flutter.plugins.imagepicker.R$color
 com.google.protobuf.DescriptorProtos$FileDescriptorProto
-com.google.firebase.auth.GithubAuthProvider:
+com.google.firebase.auth..AuthProvider:
     private void <init>()
     public static final java.lang.String PROVIDER_ID
-    public static final java.lang.String GITHUB_SIGN_IN_METHOD
+    public static final java.lang.String ._SIGN_IN_METHOD
 com.google.firestore.v1.WriteRequest$LabelsDefaultEntryHolder:
     private void <init>()
 com.google.common.primitives.UnsignedLongs$LexicographicalComparator

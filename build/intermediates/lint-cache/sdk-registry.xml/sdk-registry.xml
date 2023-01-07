@@ -160,7 +160,7 @@
     <versions from="2.11" status="deprecated" description="Bug affecting SDK performance" url="https://..com/google/dagger/releases/tag/2.15" />
     <versions from="2.11-rc2" status="deprecated" description="Bug affecting SDK performance" url="https://..com/google/dagger/releases/tag/2.15" />
     <versions from="2.11-rc1" status="deprecated" description="Bug affecting SDK performance" url="https://..com/google/dagger/releases/tag/2.15" />
-    <versions from="2.10" status="deprecated" url="https://github.com/google/dagger/releases/tag/2.15" />
+    <versions from="2.10" status="deprecated" url="https://..com/google/dagger/releases/tag/2.15" />
   </library>
   <library  groupId="AppsFlyer" artifactId="af-android-sdk" recommended-version="4.8.10" >
     <versions from="4.8.9" version-literal="!SDK-VERSION-STRING!:com.appsflyer:af-android-sdk:4.8.9" />

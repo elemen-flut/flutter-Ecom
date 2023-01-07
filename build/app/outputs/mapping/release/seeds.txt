@@ -2412,7 +2412,7 @@ kotlinx.coroutines.JobSupport$Finishing
 com.google.firestore.v1.WriteResult: com.google.firestore.v1.WriteResult DEFAULT_INSTANCE
 io.flutter.embedding.engine.renderer.SurfaceTextureWrapper: void getTransformMatrix(float[])
 io.grpc.ChannelLogger$ChannelLogLevel: io.grpc.ChannelLogger$ChannelLogLevel valueOf(java.lang.String)
-com.google.firebase.auth.GithubAuthCredential: android.os.Parcelable$Creator CREATOR
+com.google.firebase.auth..AuthCredential: android.os.Parcelable$Creator CREATOR
 kotlinx.coroutines.scheduling.WorkQueue
 com.google.firestore.v1.ListenRequest: java.lang.Object targetChange_
 androidx.window.embedding.ActivityStack: int hashCode()

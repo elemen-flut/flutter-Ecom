@@ -186,7 +186,7 @@
 # End of content from C:\Users\Taimoor Nawaz\.gradle\caches\transforms-2\files-2.1\3ebc982cf6dba10eeeec2d8bd378dc4f\jetified-play-services-measurement-17.6.0\proguard.txt
 # The proguard configuration file for the following section is C:\Users\Taimoor Nawaz\.gradle\caches\transforms-2\files-2.1\e0fb92bd3e5b64bc51e36301fdfbb137\jetified-play-services-measurement-api-17.6.0\proguard.txt
 # Can be removed once we pull in a dependency on firebase-common that includes
-# https://github.com/firebase/firebase-android-sdk/pull/1472/commits/856f1ca1151cdd88679bbc778892f23dfa34fc06#diff-a2ed34b5a38b4c6c686b09e54865eb48
+# https://..com/firebase/firebase-android-sdk/pull/1472/commits/856f1ca1151cdd88679bbc778892f23dfa34fc06#diff-a2ed34b5a38b4c6c686b09e54865eb48
 -dontwarn com.google.auto.value.AutoValue
 -dontwarn com.google.auto.value.AutoValue$Builder
 
@@ -460,7 +460,7 @@
 #-renamesourcefileattribute SourceFile
 
 # protobuf-javalite has a bug that requires this workaround rule
-# https://github.com/protocolbuffers/protobuf/issues/6463#issuecomment-553183215
+# https://..com/protocolbuffers/protobuf/issues/6463#issuecomment-553183215
 -keepclassmembers class * extends com.google.protobuf.GeneratedMessageLite {
   <fields>;
 }
